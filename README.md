@@ -17,22 +17,22 @@ The aim is to create and simulate a CMOS inverter circuit with Cadence EDA tools
 
 ## Procedure:
 ### 1. Launch Cadence Virtuoso Environment:
-     Open the Cadence Virtuoso tool and set up the working library.
-     Create a new schematic cell view for the CMOS Inverter design.
+Open the Cadence Virtuoso tool and set up the working library.
+Create a new schematic cell view for the CMOS Inverter design.
 ### 2. Schematic Design:
-    Select the NMOS and PMOS transistors from the library.
-    Connect the NMOS transistor with its source terminal to GND and its drain terminal to the output node.
-    Connect the PMOS transistor with its source terminal to VDD and its drain terminal to the same output node as NMOS.
-    Join the gate terminals of both transistors to form the input node.
-    Connect input voltage sources Vdc and Vpulse
+Select the NMOS and PMOS transistors from the library.
+Connect the NMOS transistor with its source terminal to GND and its drain terminal to the output node.
+Connect the PMOS transistor with its source terminal to VDD and its drain terminal to the same output node as NMOS.
+Join the gate terminals of both transistors to form the input node.
+Connect input voltage sources Vdc and Vpulse
 ### 3. Simulation:
-    Check the Design for Errors and proceed for Simulation
-    Launch the Analog Design Environment (ADE).
-    Configure transient analysis for time-domain response.
-    Set the simulation parameters such as voltage sweep range and step size.
-    Use Spectre simulator to perform transient and DC analyses.
+Check the Design for Errors and proceed for Simulation
+Launch the Analog Design Environment (ADE).
+Configure transient analysis for time-domain response.
+Set the simulation parameters such as voltage sweep range and step size.
+Use Spectre simulator to perform transient and DC analyses.
 ### 4. Waveform Analysis:
-    Observe the output voltage waveform concerning the input voltage.
+Observe the output voltage waveform concerning the input voltage.
 
 ## Circuit Diagram:
 #### 1. CMOS Inverter:
@@ -42,7 +42,7 @@ The aim is to create and simulate a CMOS inverter circuit with Cadence EDA tools
 
 #### 2. Schematic of CMOS Inverter:
 
-   ![image](https://github.com/user-attachments/assets/cbba1a98-bb12-417f-b0ab-edd8b4c78e7e)
+![image](https://github.com/user-attachments/assets/cbba1a98-bb12-417f-b0ab-edd8b4c78e7e)
 
 #### 3. Transient Response Setup:
 
@@ -56,7 +56,7 @@ The aim is to create and simulate a CMOS inverter circuit with Cadence EDA tools
 ## Output
 #### 1.Transient Analysis Output
 
-  ![image](https://github.com/user-attachments/assets/b86fd87f-7a66-47f5-bc26-2b5f4cb5679d)
+![image](https://github.com/user-attachments/assets/b86fd87f-7a66-47f5-bc26-2b5f4cb5679d)
 
 
 ## Results:
